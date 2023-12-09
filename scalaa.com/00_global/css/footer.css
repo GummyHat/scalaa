@@ -1,0 +1,167 @@
+#footer
+{
+    background: var(--second);
+    color: var(--first);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw 0;
+    gap: 2vw;
+}
+#footer p
+{
+    color: var(--first);
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+#footer p span
+{
+    transform: scale(.9);
+}
+#footer img
+{
+    margin: auto;
+    height: 4vw;
+}
+#footer nav
+{
+    margin: auto;
+    display: flex;
+    color: var(--first);
+    gap: 3vw;
+}
+
+#footer nav a
+{
+    margin: auto;
+    display: flex;
+    color: var(--first);
+    font-size: .8vw;
+}
+#footer span
+{
+    color: var(--first);
+    font-size: .6vw;
+}
+
+
+/* Tablet */
+/* Tablet */
+/* Tablet */
+/* Tablet */
+    
+@media only screen and (max-width: 821px) 
+{  
+    #footer
+    {
+        background: var(--second);
+        color: var(--first);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 35px 0 35px 0;
+        gap: 25px;
+    }
+    #footer p
+    {
+        display: none;
+    }
+    #footer p span
+    {
+        transform: scale(.9);
+    }
+    #footer img
+    {
+        margin: auto;
+        height: 50px;
+    }
+    #footer nav
+    {
+        margin: auto;
+        display: flex;
+        color: var(--first);
+        gap: 10px;
+        top: -5px;
+    }
+    
+    #footer nav a
+    {
+        margin: auto;
+        display: flex;
+        color: var(--first);
+        font-size: 13px;
+    }
+    #footer span
+    {
+        color: var(--first);
+        font-size: 10px;
+    }
+    #footer_copywright_text
+    {
+        /* position: absolute;
+        bottom:  25px;
+        right: 25px; */
+    }
+}
+    
+/* Mobile */
+/* Mobile */
+/* Mobile */
+/* Mobile */
+    
+@media only screen and (max-width: 439px)  
+{ 
+    #footer
+    {
+        background: var(--second);
+        color: var(--first);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 35px 0 35px 0;
+        gap: 25px;
+    }
+    #footer p
+    {
+        display: none;
+    }
+    #footer p span
+    {
+        transform: scale(.9);
+    }
+    #footer img
+    {
+        margin: auto;
+        height: 50px;
+    }
+    #footer nav
+    {
+        margin: auto;
+        display: flex;
+        color: var(--first);
+        gap: 10px;
+        top: -5px;
+    }
+    
+    #footer nav a
+    {
+        margin: auto;
+        display: flex;
+        color: var(--first);
+        font-size: 13px;
+    }
+    #footer span
+    {
+        color: var(--first);
+        font-size: 10px;
+    }
+    #footer_copywright_text
+    {
+        /* position: absolute;
+        bottom:  25px;
+        right: 25px; */
+    }
+}

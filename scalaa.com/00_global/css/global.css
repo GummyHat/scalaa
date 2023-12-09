@@ -1,0 +1,156 @@
+@font-face 
+{
+    font-family: f1;
+    src: url(https://scalaa.com/00_global/fonts/Urbanist/Urbanist-VariableFont_wght.ttf);
+}
+@font-face 
+{
+    font-family: f1i;
+    src: url(https://scalaa.com/00_global/fonts/Urbanist/Urbanist-Italic-VariableFont_wght.ttf);
+}
+
+:root
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-family:f1, sans-serif    ;
+    --first:#fff;
+    --second:#000;
+    --third:#fafafa;
+    --fourth:#3ab6e7;
+    --fifth:#f7f7f7;
+    scroll-behavior: smooth;
+    --shadow_max : -10px 10px 15px rgba(0,0,0,0.1)
+}
+*
+{
+    margin: 0;
+    font-size: inherit;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative; 
+    color: var(--second);
+}
+body
+{
+    background: var(--first);
+    overflow-x: hidden;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+h1,h2,h3,h4
+{
+    color: var(--second);
+    font-weight: 800;
+}
+h1
+{
+    font-size: 2rem;
+    line-height: 1.5rem;
+}
+h2
+{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+h3
+{
+    font-size: 1.25rem;
+    line-height: 1.35rem;
+}
+h4
+{
+    font-size: 1rem;
+    line-height: 1.35rem;
+}
+b
+{
+
+    color: var(--second);
+}
+p
+{
+    line-height: 1.25rem;
+}
+br
+{
+    height: 0px;
+    line-height: 0px;
+}
+a
+{
+    text-decoration: none;
+}
+a,select,button,input
+{
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+}
+select,button,input
+{
+    padding: 1rem;
+    cursor: pointer;
+    border: solid 1px var(--second);
+    background: var(--first);
+    font-size: inherit;
+    font-family: inherit;
+}
+a,button,input:hover
+{
+    transform: scale(1.005);
+    transition: all 200ms;
+}
+a,button,select,input:focus, a,button,select,input:active
+{
+    transform: scale(1.005);
+    transition: all 200ms;
+}
+.noError
+{
+    display: none;
+}
+.error
+{
+    display: flex;
+    background: red;
+    color: var(--first);
+    padding: 1rem;
+}
+#submit
+{
+    background: var(--second);
+    color: var(--first);
+}
+.clear_text
+{
+    color: var(--third) !important;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 821px) 
+{  
+
+}
+    
+/* Mobile */
+/* Mobile */
+/* Mobile */
+/* Mobile */
+    
+@media only screen and (max-width: 439px)  
+{ 
+
+}

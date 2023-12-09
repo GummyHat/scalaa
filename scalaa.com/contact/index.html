@@ -1,0 +1,178 @@
+
+
+        <!DOCTYPE html>
+        <html lang="es">
+            
+<!-- Mirrored from scalaa.com/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Dec 2023 23:26:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head id="head">
+                
+            <meta charset="UTF-8">
+            <meta name="keywords" content="Architecture, Luxury, Opulence, Design, Interior Design, Planning, Excelence, Miami, New York">
+            <meta name="theme-color" content="#fff">
+            <meta name="description" content="Scalaa Architects Official Website">
+            <meta name="author" content="Eduardo Osteicoechea">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+            <link rel="icon" type="image/x-icon" href="../00_global/media/image/brand/favicon.png">
+            <link rel="stylesheet" href="../00_global/css/global.css">
+            <link rel="stylesheet" href="../00_global/css/header.css">
+            <link rel="stylesheet" href="../00_global/css/footer.css">
+        
+                <title>Scalaa - Contact</title>
+            <link rel="stylesheet" type="text/css" href="assets/css/section_11.css">
+
+        </head>
+        <body>
+            
+            <div id="header" class="black_header">
+                <a href="https://scalaa.com/home">
+                <img src="../00_global/media/image/brand/scalaa_logo_horizontal_black.png" alt="Scalaa Logo" height="70px">      
+                </a>
+                <div id="header_menu_button">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <nav class="black" id="header_nav">    
+                    
+                        <a 
+                        href="https://scalaa.com/home"
+                        >Home</a>
+                    
+                        <a 
+                        href="https://scalaa.com/about"
+                        >About us</a>
+                    
+                        <a 
+                        href="https://scalaa.com/projects"
+                        >Projects</a>
+                    
+                        <a 
+                        href="https://scalaa.com/media"
+                        >Media</a>
+                    
+                        <a 
+                        class= "current_contact"
+                        href="https://scalaa.com/contact"
+                        >Contact</a>
+                    
+                </nav>
+                <nav id="mobile_navigation">          
+                    
+                        <a 
+                        href="https://scalaa.com/home"
+                        >Home</a>
+                    
+                        <a 
+                        href="https://scalaa.com/about"
+                        >About us</a>
+                    
+                        <a 
+                        href="https://scalaa.com/projects"
+                        >Projects</a>
+                    
+                        <a 
+                        href="https://scalaa.com/media"
+                        >Media</a>
+                    
+                        <a 
+                        class= "current_contact"
+                        href="https://scalaa.com/contact"
+                        >Contact</a>
+                    
+                    <div></div>
+                </nav>
+            </div>
+        
+            <script defer>
+                let mobile_navigation = document.getElementById("mobile_navigation")
+                let header = document.getElementById("header")
+                let header_menu_button = document.getElementById("header_menu_button")
+                let mobile_navigation_links = mobile_navigation.children
+                
+                mobile_navigation.style.minHeight = "0px"
+                
+                header_menu_button.addEventListener("pointerup", () => {
+                    
+                    if (mobile_navigation.style.minHeight == "0px") 
+                    {
+                        mobile_navigation.style.minHeight = "225px"
+                
+                        setTimeout(() => {
+                            for( x=0 ; x < mobile_navigation_links.length - 1; x++ )
+                            {
+                                mobile_navigation_links[x].style.left = "0px"
+                            }
+                        }, 500)
+                        setTimeout(() => {
+                            for( x=0 ; x < mobile_navigation_links.length - 1; x++ )
+                            {
+                                mobile_navigation_links[x].style.width = "50%"
+                            }
+                        }, 500)
+                    }
+                    else
+                    {
+                        
+                        for( x=0 ; x < mobile_navigation_links.length - 1; x++ )
+                        {
+                            mobile_navigation_links[x].style.left = "-180px"
+                            
+                            mobile_navigation_links[x].style.width = "0%"
+                        }
+                
+                        setTimeout(() => {
+                            mobile_navigation.style.minHeight = "0px"
+                        }, 500)
+                    }
+                })
+            </script>
+            <div id="section_11">
+        <div id="section_11_1">
+            <p class="clear_text">Conctact</p>
+        </div>
+        <div id="section_11_2">       
+            <div id="section_11_2_1">
+                <h2>
+                    Let's discuss your project
+                </h2>
+                <p>
+                    Provide the details in the form, and our team of experts will contact you to schedule a consultation.
+                </p>
+            </div>
+            <form id="section_11_2_2" action="https://scalaa.com/contact/action.php" method="post">
+                <input type="text" name="name" placeholder="Name">
+                <input type="text" name="email" placeholder="Email">
+                <input type="text" name="phone_number" placeholder="Phone Number"> 
+                <input type="text" name="how" placeholder="How did you hear from us?">
+                <textarea name="comment" placeholder="Comment"></textarea>       
+                <div id="section_11_3">
+                    <input id="privacy_policy" type="checkbox">
+                    <label for="privacy_policy">
+                        I agree with the <span>privacy policy</span>
+                    </label>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+    
+            <div id="footer">
+                <img src="../00_global/media/image/brand/scalaa_logo_horizontal.png" alt="Scalaa logo" height="80px">
+                <nav>
+                    <a href="https://scalaa.com/home">HOME</a>
+                    <a href="https://scalaa.com/about">ABOUT US</a>
+                    <a href="https://scalaa.com/projects">PROJECTS</a>
+                    <a href="https://scalaa.com/media">MEDIA</a>
+                    <a href="https://scalaa.com/contact">CONTACT</a>
+                </nav>
+                <span id="footer_copywright_text">&copy;Copyright 2023 SCALAA, All rights reserved</span>
+            </div> 
+         
+
+                </main> 
+            </body>
+        
+<!-- Mirrored from scalaa.com/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Dec 2023 23:26:01 GMT -->
+</html>
+        

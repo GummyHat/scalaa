@@ -1,0 +1,195 @@
+#section_1_background_image
+{
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,.75)),url(../image/modern_oasis_6.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+#section_1_background_image h2
+{
+    
+    font-weight: 100;
+    font-size: 22px;
+    color: var(--first);
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    letter-spacing: 2px;
+}
+
+#section_2
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3vw 0vw 3vw 3vw;
+    gap:2.25vw;
+    max-width: 100%;
+}
+
+#section_2 > *:nth-child(1)
+{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+#section_2 > *:nth-child(2)
+{
+    width: 60%;
+}
+#section_2 > *:nth-child(2) > img
+{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#section_2 > *:nth-child(1) >  h2
+{
+    font-weight: 900;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    letter-spacing: .1vw;
+    text-decoration: underline;
+}
+
+#section_2 > *:nth-child(1) > p
+{
+    color: var(--second);
+    font-weight: 100;
+    font-size: 1.25vw;
+    line-height: 2vw;
+}
+
+/* Tablet */
+/* Tablet */
+/* Tablet */
+/* Tablet */
+    
+@media only screen and (max-width: 821px) 
+{  
+    #section_1_background_image
+    {
+        min-height: 1080px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: linear-gradient(0deg, rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,.5)),url(../image/about_background_mobile.webp);;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #section_2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 50px 25px 25px 25px;
+        gap:2.25vw;
+        max-width: 100%;
+    }
+
+    #section_2 > *:nth-child(1)
+    {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+    #section_2 > *:nth-child(2)
+    {
+        width: 100%;
+    }
+    #section_2 > *:nth-child(2) > img
+    {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #section_2 > *:nth-child(1) >  h2
+    {
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: .1vw;
+        text-decoration: underline;
+        margin-bottom: 25px;
+    }
+    
+    #section_2 > *:nth-child(1) > p
+    {
+        color: var(--second);
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+    
+/* Mobile */
+/* Mobile */
+/* Mobile */
+/* Mobile */
+    
+@media only screen and (max-width: 439px)  
+{ 
+    #section_1_background_image
+    {
+        min-height: 740px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: linear-gradient(0deg, rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,.5)),url(../image/about_background_mobile.webp);;
+        background-size: cover;
+        background-position: center bottom;
+    }
+    
+    #section_2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 50px 25px 25px 25px;
+        gap:2.25vw;
+        max-width: 100%;
+    }
+
+    #section_2 > *:nth-child(1)
+    {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 25px;
+    }
+    #section_2 > *:nth-child(2)
+    {
+        width: 100%;
+    }
+    #section_2 > *:nth-child(2) > img
+    {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #section_2 > *:nth-child(1) >  h2
+    {
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: .1vw;
+        text-decoration: underline;
+        margin-bottom: 25px;
+    }
+    
+    #section_2 > *:nth-child(1) > p
+    {
+        color: var(--second);
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
